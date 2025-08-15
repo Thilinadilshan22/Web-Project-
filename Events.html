@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEXTLEVEL</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Include Font Awesome for social media icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<!----------------------------------- Header Section --------------------------------------------------------------------------------------->
+  <header>
+    <div class="header-container">
+      <h1><a href="Home.html" class="logo">NEXTLEVEL</a></h1>
+      <nav>
+        <ul>
+          <li><a href="Home.html" class="nav-link">HOME</a></li>
+          <li><a href="Events.html" class="nav-link">EVENTS</a></li>
+          <li><a href="Tickets.html" class="nav-link">TICKETS</a></li>
+          <li><a href="Gallery.html" class="nav-link">GALLERY</a></li>
+          <li><a href="Info.html" class="nav-link">INFO</a></li>
+        </ul>
+      </nav>
+      <a id="loginBtn" href="Login.html">MY ACCOUNT</a>
+    </div>
+
+    <!-- Login Modal -->
+<div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>MY ACCOUNT</h2>
+      <form onsubmit="return validateLogin()">
+        <div class="form-group">
+          <label for="email">EMAIL:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">PASSWORD:</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit" class="btn">LOGIN</button><BR><br>
+        <a href="" class="form-group">Forgot Password</a><br><br>
+        Don't Have Account? <a href="">Let's Unite</a>
+      </form>
+      <p id="login-error" class="error-message"></p>
+    </div>
+  </div>
+  
+    </header>
+
+<!----------------------------------- Hero Section --------------------------------------------------------------------------------------->
+  <div id="hero1">
+    <h2>EXPERIENCE THE ULTIMATE MUSIC FESTIVAL</h2>
+    <a href="" class="btn"><b>MORE INFORMATION<b></b></a>
+  </div><br><br><br>
+
+ <!----------------------------------- Upcoming Events --------------------------------------------------------------------------------------->
+<div><h1 style="margin-left: 3%;">NEXTLEVEL Sri Lanka</h1></div><br><br>
+<div class="card-container">
+  <div class="card">
+      <img src="Images/Events and Venues/1.jpg" alt="Event Image">
+      <h3>NEXTLEVEL Sri Lanka</h3>
+      <p>Jan 25 | Sri Lanka | 3 Days</p>
+      <button>More Details</button>
+      <button><a class="buttona" href="Tickets.html">Tickets</a></button>
+  </div>
+  <div class="card">
+      <img src="Images/Events and Venues/4.jpg" alt="Event Image">
+      <h3>Core Festival</h3>
+      <p>Aug 2025 | Sri Lanka | 2 Days</p>
+      <button>More Details</button>
+      <button><a class="buttona" href="Tickets.html">Tickets</a></button>
+  </div>
+  <div class="card">
+      <img src="Images/Events and Venues/3.jpg" alt="Event Image">
+      <h3>Unite Festival</h3>
+      <p>May 2025 | Sri Lanka | 3 Days</p>
+      <button>More Details</button>
+      <button><a class="buttona" href="Tickets.html">Tickets</a></button>
+  </div>
+  <div class="card">
+      <img src="Images/Events and Venues/5.jpg" alt="Event Image">
+      <h3>Underground Festival</h3>
+      <p>Dec 2025 | Sri Lanka | 2 Days</p>
+      <button>More Details</button>
+      <button><a class="buttona" href="Tickets.html">Tickets</a></button>
+  </div>
+</div>
+<br><br><br><br><br>
+
+<div><h1 style="margin-left: 3%;">NEXTLEVEL France</h1></div><br><br>
+<div class="card-container">
+  <div class="card">
+      <img src="Images/Events and Venues/2.jpg" alt="Event Image">
+      <h3>NEXTLEVEL France</h3>
+      <p>Mar 2025 | France | 2 Days</p>
+      <button>More Details</button>
+      <button><a class="buttona" href="Tickets.html">Tickets</a></button>
+  </div>
+  <div class="card">
+      <img src="Images/Events and Venues/8.jpg" alt="Event Image">
+      <h3>NEXTLEVEL Winter</h3>
+      <p>Mar 2025 | France | 3 Days</p>
+      <button>More Details</button>
+      <button><a class="buttona" href="Tickets.html">Tickets</a></button>
+  </div>
+  <div class="card">
+      <img src="Images/Events and Venues/9.jpg" alt="Event Image">
+      <h3>Hardstyle Festival</h3>
+      <p>Aug 2025 | France | 3 Days</p>
+      <button>More Details</button>
+      <button><a class="buttona" href="Tickets.html">Tickets</a></button>
+  </div>
+</div>
+<br><br><br><br><br>
+
+
+<div><h1 style="margin-left: 3%;">NEXTLEVEL Netherland</h1></div><br><br>
+<div class="card-container">
+  <div class="card">
+      <img src="Images/Events and Venues/6.jpg" alt="Event Image">
+      <h3>NEXTLEVEL Netherland</h3>
+      <p>May 2025 | Netherland | 3 Days</p>
+      <button>More Details</button>
+      <button><a class="buttona" href="Tickets.html">Tickets</a></button>
+  </div>
+  <div class="card">
+      <img src="Images/Events and Venues/7.jpg" alt="Event Image">
+      <h3>FireWorld Festival</h3>
+      <p>Jun 2025 | Netherland | 2 Days</p>
+      <button>More Details</button>
+      <button><a class="buttona" href="Tickets.html">Tickets</a></button>
+  </div>
+  <div class="card">
+      <img src="Images/Events and Venues/10.jpg" alt="Event Image">
+      <h3>TechnoVibe Festival</h3>
+      <p>Dec 2025 | Netherland | 2 Days</p>
+      <button>More Details</button>
+      <button><a class="buttona" href="Tickets.html">Tickets</a></button>
+  </div>
+</div>
+<br><br><br><br><br>
+
+<!----------------------------------- Footer Section --------------------------------------------------------------------------------------->
+<footer class="footer">
+  <div class="footer-container">
+      <div class="footer-section">
+          <h4>Contact Us</h4>
+          <p> Email: info@nextlevelmusicfestival.com<br>
+              Address: NEXTLEVEL Music Festival,<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;Sri Lanka.<br>
+              Phone: +123 456 7890</p>
+      </div>
+      <div class="footer-section">
+          <h4>Follow Us</h4>
+              <a href="#" target="_blank">YouTube</a> | 
+              <a href="#" target="_blank">Instagram</a> |
+              <a href="#" target="_blank">Facebook</a> | 
+              <a href="#" target="_blank">Tiktok</a><br>
+                    &nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-youtube"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-instagram"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-facebook"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-tiktok"></i>
+      </div>
+      <div class="footer-section">
+        <h4>Stay Updated</h4>
+        <form action="#" class="subscribe-form">
+            <input type="email" placeholder="Your Email" size="5" required>
+            <button type="submit">Subscribe</button>
+        </form>
+      </div>
+
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <a href="Events.html">Events</a> | 
+        <a href="Tickets.html">Tickets</a> | 
+        <a href="Gallery.html">Gallery</a> | 
+        <a href="Info.html">Info</a>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <p>© 2024 NEXTLEVEL Music Festival. All rights reserved.</p>
+</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

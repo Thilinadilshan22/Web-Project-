@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NEXTLEVEL</title>
+        <link rel="stylesheet" href="styles for login.css">
+        <link rel="stylesheet" href="style.css">
+        <!-- Include Font Awesome for social media icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+        <body>
+
+<!----------------------------------- Header Section --------------------------------------------------------------------------------------->
+<header style="padding-top:1px; box-sizing:unset;"><br>
+    <div class="header-container">
+    <h1><a href="Home.html" class="logo">NEXTLEVEL</a></h1>
+    <nav>
+    <ul style="padding-right:50px;">
+        <li><a href="Home.html">HOME</a></li>
+        <li><a href="Events.html">EVENTS</a></li>
+        <li><a href="Tickets.html">TICKETS</a></li>
+        <li><a href="Gallery.html">GALLERY</a></li>
+        <li><a href="Info.html">INFO</a></li>
+     </ul>
+    </nav>
+    <a></a>
+    </div>
+    </header>
+
+
+<br><br><br><br><br><br>
+<br>
+<!----------------------------------- Login Section --------------------------------------------------------------------------------------->
+    <div class="cont">
+        <div class="form sign-in">
+            <h2>Welcome</h2>
+            <label>
+                <span>Email</span>
+                <input type="email" />
+            </label>
+            <label>
+                <span>Password</span>
+                <input type="password" />
+            </label>
+            <p class="forgot-pass"><a href="" >Forgot password?</p></a>
+            <button type="button" class="submit">Sign In</button>
+         
+        </div>
+        <div class="sub-cont">
+            <div class="img">
+                <div class="img__text m--up">
+                 
+                    <h3>Don't have an account? Please Sign up!<h3>
+                </div>
+                <div class="img__text m--in">
+                
+                    <h3>If you already has an account, just sign in.<h3>
+                </div>
+                <div class="img__btn">
+                    <span class="m--up">Sign Up</span>
+                    <span class="m--in">Sign In</span>
+                </div>
+            </div>
+            <div class="form sign-up">
+                <h2>Create your Account</h2>
+                <label>
+                    <span>Name</span>
+                    <input type="text" />
+                </label>
+                <label>
+                    <span>Email</span>
+                    <input type="email" />
+                </label>
+                <label>
+                    <span>Password</span>
+                    <input type="password" />
+                </label>
+                <button type="button" class="submit">Sign Up</button>
+                
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('.img__btn').addEventListener('click', function() {
+            document.querySelector('.cont').classList.toggle('s--signup');
+        });
+    </script>
+
+
+</body>
+</html>
